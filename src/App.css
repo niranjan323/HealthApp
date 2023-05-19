@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.name {
+  color: red;
+  font-size: 80px;
+}
+@media (min-width: 576px) {
+  .name {
+    color: blue;
+  }
+}
+@media (min-width: 768px) {
+  .name {
+    color: gray;
+  }
+}
+@media (min-width: 992px) {
+  .name {
+    color: green;
+  }
+}
+@media (min-width: 1200px) {
+  .name {
+    color: white;
+  }
+}
